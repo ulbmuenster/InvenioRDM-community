@@ -1,6 +1,6 @@
-# InvenioRDm community resources
+# InvenioRDM community resources
 
-This is a place to preserve and share ressources for and created by the InvenioRDM communtity.
+This is a place to preserve and share ressources for and created by the InvenioRDM community.
 
 First entry will be the InvenioRDM workshop held in Münster 2024-03-18.
 
