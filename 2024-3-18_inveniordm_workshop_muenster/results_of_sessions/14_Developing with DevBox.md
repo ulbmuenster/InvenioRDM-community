@@ -24,7 +24,7 @@ Sarah
 ### Problem statement
 
 In addition to the short presentation on Monday with the same title we want to give participants the chance to try out using Devbox for development themselves. We will provide a Virtual Box image with all necessary dependencies installed so you can get right into it and we will assist you and answer your questions. 
-Please install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) ahead of the session on your own machine and download the [provided image](https://uni-muenster.sciebo.de/s/WcgDtuQRpC9y22s) if you are interested in this workshop.
+Please install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) ahead of the session on your own machine and download the [provided image](https://uni-muenster.sciebo.de/s/1zxDIUWuiBcoqFj) if you are interested in this workshop.
 [Worksheet with instructions](https://pad.uni-muenster.de/WrVqNv4eTIWLeCPniq1J4Q?view)
 
 ### Ideas shared
@@ -46,6 +46,7 @@ Please install [Virtual Box](https://www.virtualbox.org/wiki/Downloads) ahead of
 
 ```
 
+- Steps to install Docker and Devbox (used to prepare VM image):
 ```
 #install_vm.txt
 sudo apt-get install git
@@ -74,7 +75,7 @@ sudo usermod -aG docker invenio
 docker run hello-world
 docker compose version
 ```
-
+- Devbox specifications:
 
 ```
 #devbox.json
@@ -112,7 +113,7 @@ docker compose version
   }
 }
 ```
-
+- Install script for empty InvenioRDM v12 instance:
 ```
 #install-empty.sh
 # Copyright (C) 2023 University of M\u00fcnster.
@@ -200,7 +201,7 @@ function install_instance() {
 
 install_instance
 ```
-
+- helper script to install invenio-cli:
 ```
 #invenio-cli.sh
 # Copyright (C) 2023 University of M\u00fcnster.
@@ -244,4 +245,5 @@ run with KVM
 ### Actions decided
 
 - share repository with all used scripts with community
+
 
