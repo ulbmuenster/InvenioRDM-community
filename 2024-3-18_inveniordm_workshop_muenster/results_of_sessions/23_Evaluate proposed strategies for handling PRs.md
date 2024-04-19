@@ -25,4 +25,7 @@ On Tuesday we collected some ideas on how to improve PR handling. Participants h
 
 ### Actions decided
 
+- regular merge parties right after Telecons (cut Telecons to 30 minutes) (Sara)
+- train more people as maintainers with merge rights (in on-site meetings) (CERN)
+- figure out a clear labelling system (Karolina)
 
